@@ -1,0 +1,19 @@
+html
+  include ./includes/head.jade
+  body
+    div
+      h2
+        code!= title
+      input(type='range', value!= value, data-rangeslider='')
+      output
+    div
+      h2
+        code heater
+      .switch
+        input#switchbox.switch-checkbox(type='checkbox', name='switch', onclick="switchHeater()" checked=is_checked )
+        label.switch-label(for='switchbox')  
+
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js')  
+  script(src='/js/rangeslider.min.js')
+  script(src='/js/rangeslider_init.js')
+
