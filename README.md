@@ -3,8 +3,8 @@ docker container for running a simple home api
 
 dependencies:
 ---
--docker-wemo
--docker-sonos
+- docker-wemo
+- docker-sonos
 
 usage:
 ---
