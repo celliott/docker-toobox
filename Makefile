@@ -1,12 +1,12 @@
 # Makefile for docker-toobox
 
 # env varibles
-AUTH_USER := 'admin'
-AUTH_PASS := 'password'
-SONOS_API := '172.17.0.1:5005'
-SONOS_DEVICE := 'Living Room'
-WEMO_API := '172.17.0.1:5000'
-WEMO_DEVICE := 'Heater'
+AUTH_USER ?= 'admin'
+AUTH_PASS ?= 'password'
+SONOS_API ?= '172.17.0.1:5005'
+SONOS_DEVICE ?= 'Living Room'
+WEMO_API ?= '172.17.0.1:5000'
+WEMO_DEVICE ?= 'Heater'
 
 # docker settings
 PORTS = -p 80:80
