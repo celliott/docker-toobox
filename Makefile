@@ -11,6 +11,7 @@ WEMO_DEVICE ?= 'Heater'
 # docker settings
 PORTS = -p 80:80
 CONTAINER = toobox
+VOLUMES =  -v `pwd`/app:/app
 ENVS = -e AUTH_USER=$(AUTH_USER) -e AUTH_PASS=$(AUTH_PASS) -e SONOS_API=$(SONOS_API) -e SONOS_DEVICE=$(SONOS_DEVICE) -e WEMO_API=$(WEMO_API) -e WEMO_DEVICE=$(WEMO_DEVICE)
 
 .PHONY: container run
