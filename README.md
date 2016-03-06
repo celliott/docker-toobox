@@ -1,14 +1,14 @@
 # docker-toobox
 docker container for running a simple home api
 
-dependencies:
+dependencies
 ---
 - [docker-wemo](https://github.com/celliott/docker-wemo)
 - [docker-sonos](https://github.com/celliott/docker-sonos)
 
-usage:
+usage
 ---
-```
-$ make container
-$ make run
-```
+
+	$ make container
+	$ make run
+
