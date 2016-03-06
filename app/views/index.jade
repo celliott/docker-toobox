@@ -1,7 +1,11 @@
 html
   include ./includes/head.jade
   body
+    #header.full
+      #menu.text
+        a toobox
     div
+      br
       h2
         code!= title
       input(type='range', value!= value, data-rangeslider='')

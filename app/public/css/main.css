@@ -1,44 +1,45 @@
 *,
 *:before,
 *:after {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html {
-    color: #9a9a9a;
-    font-family: Helvetica, arial, sans-serif;
+	color: #9a9a9a;
+	font-family: Helvetica, arial, sans-serif;
 	background-color: #2a2a2a;
 	font-family: monospace;
 }
 body {
-    padding: 50px 20px;
-    margin: 0 auto;
-    max-width: 800px;
+	padding: 50px 20px;
+	margin: 0 auto;
+	max-width: 800px;
 }
 #header {
 	background-color: #202020;
-    position: fixed;
-    height: 60px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 100;
+	position: fixed;
+	height: 60px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
 	box-shadow: 0 0 16px #000;
 }
 #menu {
-	padding: 12px 40px;
+	text-align: center;
+	padding: 10px 40px;
 	color: #fff;
 	font-size: 36px;
 }
 footer {
-    position: absolute;
-    height: 60px;
+	position: absolute;
+	height: 60px;
 	padding-left:40px;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+	bottom: 0;
+	left: 0;
+	width: 100%;
 }
 .col {
 	padding: 10px 30px;
@@ -56,74 +57,71 @@ h2 {
 	margin-bottom: 20px;
 }
 a {
-    color: #E8E8E8;
-    text-decoration: none;
+	color: #E8E8E8;
+	text-decoration: none;
 	text-shadow: 0 -1px 0 #888;
 }
-a:hover {
-    color: #000000;
-}
 img {
-    padding:20px;
+	padding:20px;
 	max-width: 100px;
 }
 output {
 	display: none !important;
 	font-family: monospace;
-    display: block;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    margin: 30px 0;
-    width: 100%;
+	display: block;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin: 30px 0;
+	width: 100%;
 	margin-bottom: 4px;
 	margin-top:12px;
 }
 .u-left {
-    float: left;
+	float: left;
 }
 .u-cf:before,
 .u-cf:after {
-    content: "";
-    display: table;
+	content: "";
+	display: table;
 }
 .u-cf:after {
-    clear: both;
+	clear: both;
 }
 .u-text-left {
-    text-align: left;
+	text-align: left;
 }
 .switch {
-    position: relative; width: 60px;
-    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+	position: relative; width: 60px;
+	-webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
 	margin-bottom:16px;
 }
 .switch-checkbox {
-    display: none;
+	display: none;
 }
 .switch-label {
-    display: block; overflow: hidden; cursor: pointer;
-    height: 36px; padding: 0; line-height: 36px;
-    border: 2px solid #CCCCCC; border-radius: 36px;
-    transition: background-color 0.3s ease-in;
+	display: block; overflow: hidden; cursor: pointer;
+	height: 36px; padding: 0; line-height: 36px;
+	border: 2px solid #CCCCCC; border-radius: 36px;
+	transition: background-color 0.3s ease-in;
 }
 .switch-label:before {
-    content: "";
-    display: block; width: 36px; margin: 0px;
-    background: #666666;
-    position: absolute; top: 0; bottom: 0;
-    right: 24px;
-    border: 2px solid #CCCCCC; border-radius: 36px;
-    transition: all 0.3s ease-in 0s; 
+	content: "";
+	display: block; width: 36px; margin: 0px;
+	background: #666666;
+	position: absolute; top: 0; bottom: 0;
+	right: 24px;
+	border: 2px solid #CCCCCC; border-radius: 36px;
+	transition: all 0.3s ease-in 0s; 
 }
 .switch-checkbox:checked + .switch-label {
-    background-color: #fb5a22;
+	background-color: #fb5a22;
 }
 .switch-checkbox:checked + .switch-label, .switch-checkbox:checked + .switch-label:before {
 	border-color: #fb5a22;
 }
 .switch-checkbox:checked + .switch-label:before {
-    right: 0px; 
+	right: 0px; 
 	background: #fff;
 }
 .rangeslider,
@@ -183,7 +181,7 @@ output {
 		#menu {
 			width: 100%;
 			text-align: center;
-			padding: 2px;
+			padding: 10px 40px;
 			font-size: 46px;
 		}
 }

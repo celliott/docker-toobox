@@ -58,6 +58,7 @@ app.get('/', auth, function(req, res, next) {
 		url = 'http://' + wemo_api + '/api/device/' + wemo_device;
 		self.get_heater("GET", url, function(e, r, b) {
 			var wemo = JSON.parse(b)
+			console.log(wemo);
 			var is_checked = false;
 			if (wemo.state == 1) {
 				is_checked = true;
